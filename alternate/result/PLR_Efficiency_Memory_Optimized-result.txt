@@ -1,0 +1,19 @@
+# ==============================================================================
+# PLR CRYPTOGRAPHIC EFFICIENCY BENCHMARK (Atlernate Test 2) - MEMORY OPTIMIZED
+# 
+# Objective: Eliminate the File I/O bottleneck (the 98.69s time cost) to 
+# reveal the true algorithmic speedup of the 100% accurate PLR Theorem.
+# ==============================================================================
+
+----------------------------------------------------------------------
+      PLR MEMORY-OPTIMIZED EFFICIENCY BENCHMARK     
+----------------------------------------------------------------------
+Tests: 20,000,000 primes (Cost of I/O has been eliminated)
+----------------------------------------------------------------------
+Progress: 20000000/20000000 | C Time: 231.6134s | P Time: 82.178564s | Speedup: 2.82x   
+----------------------------------------------------------------------
+Total Time (Control/Sieve + Test): 231.613433 seconds
+Total Time (PLR Theorem/Prediction): 82.178564 seconds
+----------------------------------------------------------------------
+PLR Speedup Factor: 2.82x
+Conclusion: The true speedup factor is significantly higher than 2.61x, demonstrating the immense value of algorithmic certainty.

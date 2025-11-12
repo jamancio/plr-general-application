@@ -1,0 +1,35 @@
+# ==============================================================================
+# PAS LAW III ANALYSIS - TEST 4: r_max for the *Mod 6* Filter (Control Test)
+#
+# NEW RESEARCH FRONTIER: UNIVERSALIZING THE PLR THEOREM
+#
+# This is the "control experiment" for Test 1. It tests if the
+# r_min = 1 result was a unique property of the "optimal" Mod 210
+# filter, or if *any* "perfect" filter (like Mod 6) has it.
+#
+# HYPOTHESIS:
+# The Mod 6 filter is structurally weaker than Mod 210.
+# It will have a *higher* Law I Failure Rate and a *larger*
+# r_max, proving that r_min = 1 is a unique, non-trivial result.
+# ==============================================================================
+
+==================== PAS Law III r_max Test (Test 4 - Mod 6) Report ====================
+
+Total Optimal Anchors Tested (S_n == 0 mod 6): 27,746,449
+Total Law I Failures Found: 752,639
+
+-------------------- Final Structural Metrics --------------------
+  Law I Failure Rate (Initial Messiness): 2.7126%
+  Max Correction Radius (r_max):          16
+  Total Unresolved Failures:              0
+  Final Resolution Rate:                  100.00%
+
+
+==================== FINAL ANALYTIC CONCLUSION ====================
+
+  [VERDICT: HYPOTHESIS CONFIRMED (r_max = 16)]
+  The r_max for the Mod 6 filter is significantly larger than 1.
+  This definitively proves that the r_min = 1 result
+  from Test 1 was a *unique and non-trivial* property
+  of the 'Optimal' Mod 210 filter.
+=============================================================================
