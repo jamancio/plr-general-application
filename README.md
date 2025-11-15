@@ -85,7 +85,7 @@ The **PLR Model** uses the structural reality defined by the $\text{PAS}$ and $\
 
 ### 4.1 The Core Signal (v11.0) and its 60.49% Limit
 
-The foundational engine (`v11.0`) defined the problem as a two-signal, multiplicative score: $\mathbf{\text{Score} = (\text{v}_{\text{mod6}} \text{ Rate} + \text{1.0}) \times \text{Gap}_{g_n}}$. This core model achieved **60.49%** accuracy, proving the problem is an optimization of **Cleanliness (v_mod6)** and **Closeness (Gap)**.
+The foundational engine (`v11.0`) defined the problem as a two-signal, multiplicative score: $\mathbf{\text{Score} = (v_{\text{mod6}} \text{ Rate} + \text{1.0}) \times \text{Gap}_{g_n}}$. This core model achieved **60.49%** accuracy, proving the problem is an optimization of **Cleanliness (v_mod6)** and **Closeness (Gap)**.
 
 ### 4.2 The Statistical Dead End (Falsification of Complexity)
 
