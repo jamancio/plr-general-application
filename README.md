@@ -226,16 +226,16 @@ To determine if the "Clean Channel" is a local anomaly or a fundamental property
 
 ### 6.1. Fractal Smoothing (The Vacuum Effect)
 
-We hypothesized that as the Primorial resolution increases, the "Structural Resistance" of the Clean Channel ($0 \pmod P\#$) should drop, creating a wider and smoother path for primes.
+We hypothesized that as the Primorial resolution increases, the "Structural Resistance" of the Clean Channel ($0 \pmod P_{kth}$) should drop, creating a wider and smoother path for primes.
 
 **Table 5: Primorial Scaling of Structural Resistance (Fractal Hierarchy)**
 
 | Primorial    | Map Resolution | "Clean" Failure Rate | Structural Improvement |
 | :----------- | :------------- | :------------------- | :--------------------- |
-| $P_1 \#$     | **Mod 6**      | **1.4488%**          | Baseline               |
-| $P_2 \#$     | **Mod 30**     | **0.1395%**          | 10x Smoother           |
-| $P_3 \#$     | **Mod 210**    | **0.00008%**         | 1,700x Smoother        |
-| $P_{kth} \#$ | **Mod $kth$**  | **$...\%$**          | ...                    |
+| $P_1$     | **Mod 6**      | **1.4488%**          | Baseline               |
+| $P_2$     | **Mod 30**     | **0.1395%**          | 10x Smoother           |
+| $P_3$     | **Mod 210**    | **0.00008%**         | 1,700x Smoother        |
+| $P_{kth} $ | **Mod $kth$**  | **$...\%$**          | ...                    |
 
 ### 6.2. The Singularity
 
