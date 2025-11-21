@@ -1,6 +1,6 @@
 # The Deterministic Structure of Local Prime Distribution: A Unified Computational and Geometric Proof
 
-**Author:** Jores Amancio
+**Author:** Independent Researcher
 
 **Date:** November 2025
 
