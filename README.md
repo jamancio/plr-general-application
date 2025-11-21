@@ -1,6 +1,6 @@
 # The Deterministic Structure of Local Prime Distribution: A Unified Computational and Geometric Proof
 
-**Author:** Independent Researcher
+**Author:** Jores Amancio
 
 **Date:** November 2025
 
@@ -224,22 +224,38 @@ To demonstrate the utility of this geometry, we ran a "Twin Prime Sniper" test.
 
 To determine if the "Clean Channel" is a local anomaly or a fundamental property, we conducted a **Primorial Scaling Test**. We tested the PLR logic using higher-resolution maps: **Mod 30** ($2 \times 3 \times 5$) and **Mod 210** ($2 \times 3 \times 5 \times 7$).
 
-### 6.1. Fractal Smoothing (The Vacuum Effect)
+### 6.1. Spectral Splitting (Mod 30 Analysis)
 
-We hypothesized that as the Primorial resolution increases, the "Structural Resistance" of the Clean Channel ($0 \pmod P_{kth}$) should drop, creating a wider and smoother path for primes.
+Our high-resolution analysis of 50,000,000 anchors revealed that the "Clean Channel" observed at Mod 6 ($1.45\%$) is actually a composite of two finer structures. The geometry splits based on divisibility by 5.
 
-**Table 5: Primorial Scaling of Structural Resistance (Fractal Hierarchy)**
+**Table 5: The Spectral Splitting of the Clean Channel (Mod 30)**
 
-| Primorial    | Map Resolution | "Clean" Failure Rate | Structural Improvement |
-| :----------- | :------------- | :------------------- | :--------------------- |
+| Residue Class ($S_n \pmod{30}$) | Structure Type   | Factors of Anchor | Failure Rate | Interpretation                   |
+| :------------------------------ | :--------------- | :---------------- | :----------- | :------------------------------- |
+| **0**                           | **Super-Clean**  | 2, 3, **5**       | **0.1395%**  | The "Core" Vacuum                |
+| **6, 12, 18, 24**               | **Semi-Clean**   | 2, 3              | **~3.5%**    | The "Halo" (Loss of 5-shielding) |
+| **2, 8, 22, 28**                | **Deeply Messy** | 2                 | **~33.1%**   | High Turbulence                  |
+
+This data proves that the **1.45%** constant derived at Mod 6 is the weighted average of the "Super-Clean" and "Semi-Clean" bands.
+
+### 6.2. Fractal Smoothing (The Vacuum Effect)
+
+We hypothesized that as the Primorial resolution increases, the "Structural Resistance" of the Cleanest Channel ($0 \pmod P_{kth}$) should drop toward zero.
+
+**Table 6: Primorial Scaling of Structural Resistance**
+
+| Primorial | Map Resolution | "Clean" Failure Rate | Structural Improvement |
+| :-------- | :------------- | :------------------- | :--------------------- |
 | $P_1$     | **Mod 6**      | **1.4488%**          | Baseline               |
 | $P_2$     | **Mod 30**     | **0.1395%**          | 10x Smoother           |
 | $P_3$     | **Mod 210**    | **0.00008%**         | 1,700x Smoother        |
-| $P_{kth} $ | **Mod $kth$**  | **$...\%$**          | ...                    |
 
-### 6.2. The Singularity
+### 6.3. The Singularity
 
 The data reveals a **Geometric Singularity** at higher moduli. At Mod 210, the "Clean Channel" failure rate drops to near-zero ($8.4 \times 10^{-5}\%$). This implies that the "Path of Least Resistance" is not merely a statistical tendency but a **Geometric Vacuum** that becomes effectively frictionless at high resolutions.
+
+![Alt text](./Result/PLR_Fractal_Spectrum_Mod210.png "The Fractal Spectrum (Mod 210)")
+_Figure 2: The Fractal Hierarchy. The "Vacuum" (Blue) and Mod 30 Echoes (Cyan) form a frictionless river at gaps 2 and 4, strictly separated from the High-Resistance (Red) cloud above._
 
 **Verification of Universal Logic:**
 We ran the PLR v23.0 prediction engine using the Mod 30 and Mod 210 maps.
@@ -260,4 +276,4 @@ We have proven that:
 3.  **Prime Gaps** are quantized into mutually exclusive channels.
 4.  **The Structure is Fractal:** The resistance of the Clean Channel collapses toward zero at higher Primorials, providing the geometric mechanism for infinite prime generation.
 
-The PLR asserts that the apparent chaos of the prime numbers is merely the superposition of strictly ordered modular waveforms. When these waveforms are separated by the "Messiness" metric, the structure becomes predictable, stable, and precise.
+The PLR Conjecture asserts that the apparent chaos of the prime numbers is merely the superposition of strictly ordered modular waveforms. When these waveforms are separated by the "Messiness" metric, the structure becomes predictable, stable, and precise.
