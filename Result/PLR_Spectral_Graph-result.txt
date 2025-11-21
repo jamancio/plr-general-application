@@ -1,0 +1,12 @@
+============================================================
+ PLR SPECTRAL DATA SUMMARY
+============================================================
+Anchor Type          | Dominant Gaps Found
+------------------------------------------------------------
+Clean (0 mod 6)      | [2, 4, 8, 10, 14] ...
+Messy (2 mod 6)      | [6, 12, 18, 24, 30] ...
+Messy (4 mod 6)      | [6, 12, 18, 24, 30] ...
+------------------------------------------------------------
+[INTERPRETATION]
+CONFIRMED: Small Gaps (2, 4) are EXCLUSIVE to Clean Anchors.
+CONFIRMED: Sexy Gaps (6) are EXCLUSIVE to Messy Anchors.

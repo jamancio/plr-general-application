@@ -1,0 +1,15 @@
+============================================================
+      PLR NEW CONSTANT VALIDATION TEST
+============================================================
+Testing Constants: Clean=1.4488 | Messy=21.5957
+Generating 1,000,000 primes for validation...
+Primes loaded. Running v23.0 logic...
+------------------------------------------------------------
+  Checked 800,000 primes... (100% OK)
+------------------------------------------------------------
+RESULTS: 100.00% ACCURACY
+The 'Internal Flip' logic is compatible with the new constants.
+
+[THEORETICAL IMPLICATION]
+The drop from 2.71 -> 1.45 increased the 'Signal Strength'.
+Clean Anchors are now even stronger 'Attractors'.

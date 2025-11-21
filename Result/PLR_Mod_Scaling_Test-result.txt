@@ -1,0 +1,47 @@
+============================================================
+      PLR PRIMORIAL SCALING TEST (Mod 30 / Mod 210)
+============================================================
+Test Limit: 1,000,000 Primes
+Loading 1,000,000 primes from ./prime/primes_100m.txt...
+Loaded 1,000,050 primes in 0.11s.
+
+------------------------------------------------------------
+Starting Mod 30 Analysis...
+  > Loaded Map. Clean Anchor (0 mod 30) Score: 0.139531%
+  [FAIL] p=7 | Pred=13 | True=11
+
+  Mod 30 Result: 1 Failures in 0.00s
+
+------------------------------------------------------------
+Starting Mod 210 Analysis...
+  > Loaded Map. Clean Anchor (0 mod 210) Score: 0.000084%
+  [FAIL] p=37 | Pred=43 | True=41
+
+  Mod 210 Result: 1 Failures in 0.00s
+
+============================================================
+
+------------------------------------------------------------------------
+
+============================================================
+      PLR PRIMORIAL SCALING TEST (Mod 30 / Mod 210)
+============================================================
+Test Limit: 50,000,000 Primes
+Loading 50,000,000 primes from ./prime/primes_100m.txt...
+Loaded 50,000,050 primes in 6.04s.
+
+------------------------------------------------------------
+Starting Mod 30 Analysis...
+  > Loaded Map. Clean Anchor (0 mod 30) Score: 0.139531%
+  [FAIL] p=7 | Pred=13 | True=11
+
+  Mod 30 Result: 1 Failures in 0.00s
+
+------------------------------------------------------------
+Starting Mod 210 Analysis...
+  > Loaded Map. Clean Anchor (0 mod 210) Score: 0.000084%
+  [FAIL] p=37 | Pred=43 | True=41
+
+  Mod 210 Result: 1 Failures in 0.00s
+
+============================================================
