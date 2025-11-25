@@ -1,0 +1,19 @@
+============================================================
+      PLR vs PNT: GLOBAL CONVERGENCE TEST
+============================================================
+Loading 1000000 primes...
+Loaded 1,000,000 primes. Max p = 15,485,863
+Calculating PNT curves...
+Rendering 'PLR_vs_PNT_Comparison.png'...
+Graph saved to PLR_vs_PNT_Comparison.png
+
+------------------------------------------------------------
+x               | PLR Count    | PNT Pred     | Error %
+------------------------------------------------------------
+2               | 1            | 2            | 188.5390%
+3,497,867       | 250,001      | 232,143      | 7.1428%
+7,368,791       | 500,001      | 466,002      | 6.7996%
+15,469,327      | 999,001      | 934,455      | 6.4610%
+------------------------------------------------------------
+[CONCLUSION]
+DIVERGENCE DETECTED. Something is wrong with the prime generator.

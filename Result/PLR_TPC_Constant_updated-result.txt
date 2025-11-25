@@ -1,0 +1,46 @@
+# ==============================================================================
+# PLR THEOREM - TEST 6 (Corrected v3.0): Analytic Generalization
+#
+# METHODOLOGY CORRECTION (v3.0):
+# - Replaced the fragile regex parser with a simple line-finding parser
+#   to correctly read all 10 checkpoints from the input file.
+# - This script *correctly* uses the prime *value* (p_N), not the index (N),
+#   to test the Hardy-Littlewood constant.
+#
+# GOAL:
+# To find the "Constant of Proportionality" (2*C_2) by calculating:
+# Constant = Measured_Density / (1 / (ln p_N)^2)
+#
+# HYPOTHESIS:
+# The calculated constant will be stable and converge to the
+# known Hardy-Littlewood Twin Prime Constant (2*C_2), which is ~1.3203.
+# ==============================================================================
+
+
+================================================================================
+ 'Constant of Proportionality' (2*C_2) Analysis (Corrected Methodology)
+================================================================================
+  Constant = (Measured Density / 1000) / (1 / (ln(p_N))^2)
+--------------------------------------------------------------------------------
+N Gaps (N)   | Prime Value (p_N) | Measured Density   | Theoretical Base   | Calculated Constant 
+--------------------------------------------------------------------------------
+5,000,000    | 86,028,157       | 0.07707420         | 0.00299581         | 25.7273             
+10,000,000   | 179,424,691      | 0.07385930         | 0.00276855         | 26.6780             
+15,000,000   | 275,604,547      | 0.07208240         | 0.00264761         | 27.2254             
+20,000,000   | 373,587,911      | 0.07092370         | 0.00256664         | 27.6329             
+25,000,000   | 472,882,049      | 0.07003770         | 0.00250642         | 27.9433             
+30,000,000   | 573,259,433      | 0.06931920         | 0.00245880         | 28.1922             
+35,000,000   | 674,506,111      | 0.06873310         | 0.00241962         | 28.4066             
+40,000,000   | 776,531,419      | 0.06822800         | 0.00238643         | 28.5899             
+45,000,000   | 879,190,841      | 0.06778630         | 0.00235775         | 28.7505             
+50,000,000   | 982,451,707      | 0.06740880         | 0.00233252         | 28.8995             
+--------------------------------------------------------------------------------
+
+  Average Calculated Constant: 27.8046
+  Max Deviation (Stability):   3.1722
+  Known TPC Constant (2*C_2):  ~1.3203
+
+  [VERDICT: HYPOTHESIS FALSIFIED. CONSTANT IS UNSTABLE OR INACCURATE.]
+  The measured constant (27.8046) is not converging to 1.3203.
+  (Deviation: 3.1722)
+================================================================================

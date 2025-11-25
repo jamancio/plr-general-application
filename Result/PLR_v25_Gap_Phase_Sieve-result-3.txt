@@ -1,0 +1,13 @@
+============================================================
+      PLR v26 ENGINE: MODULO-PHASE SIEVE TEST
+============================================================
+Loading primes from ./prime/primes_100m.txt...
+Loaded 50,000,050 primes.
+Testing v26 Logic on 50,000,000 primes...
+Rule 1: Gap % 6 != 0 -> Must be Clean (0 mod 6)
+Rule 2: Gap % 6 == 0 -> Must be Messy (2,4 mod 6)
+------------------------------------------------------------
+  Checked 50,000,000 primes...
+------------------------------------------------------------
+RESULT: 100.00% ACCURACY (for p > 3)
+The Modulo-Phase Lock (v26) is absolute.
